@@ -1,0 +1,166 @@
+/*
+**
+**
+** main tags
+*/
+
+body{
+	background-color: #f1c40f;
+}
+
+/*
+**
+**
+** classes
+*/
+
+/* hidden_tab */
+
+.hidden_div{
+	border-radius: 7px;
+	width: 85%;
+	display: none;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	font-size: 18px;
+	font-family: 'Raleway', serif;
+	color:#dcdde1;
+	background-color: #192a56;
+	text-decoration: none currentcolor solid;
+}
+
+
+/* visible_tab */
+.visible_tab{
+
+	text-align: center;
+	margin:auto;
+	
+
+}
+
+.visible_tab a {
+
+	color: #2f3640;
+	font-family: 'K2D', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+}
+.visible_tab a:hover {
+	
+	color: #498;
+	cursor: default;
+}
+
+.visible_tab a:active{
+	
+	color: #ecf0f1;
+	
+}
+
+.visible_tab a:visited{
+	color: #345;
+}
+
+
+/* header */
+
+.header{
+	display: flex;
+	margin:auto;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+
+.header img{
+	
+	height: 125px;
+	max-width: 100%;
+	border-style: solid;
+	border-color: #2980b9;
+	border-radius: 20%;
+	
+}
+
+.header h2{
+	
+	font-family: 'Raleway', serif;
+	color: #2f3640;
+	text-align: center;
+	margin:auto;
+}
+
+/* content */
+
+.content{
+	
+	max-width: 100%;
+	display: block;
+	text-align: center;	
+	justify-content: center;
+	margin:auto;
+	padding-right: 40px;
+	
+}
+
+
+.content hr{
+	
+	color:#2f3640;
+	size: 1px;
+}
+
+.content ul{
+	
+	list-style-type: none;
+	
+}
+
+.content ul li{
+	
+	
+	
+}
+
+
+.content ul li div{
+	
+
+}
+
+
+
+
+
+
+
+/*
+*
+**
+** id's
+*/
+
+
+#welcomeParagraph {
+	font-family: 'Lato', serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #232332;
+	margin: auto;
+	text-align: center;
+}
+
+
+
+@media(max-width: 800px){
+
+	.hidden_div{
+		font-size: 15px;
+	}
+}
+
+
+
