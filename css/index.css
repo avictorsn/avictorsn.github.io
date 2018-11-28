@@ -173,8 +173,18 @@ body{
 
 @media(max-width: 800px){
 
+	
+}
+
+@media only screen and (max-width: 768px) {
+	
 	.hidden_div{
 		font-size: 15px;
+	}
+
+	iframe{
+		width: 80%;
+		height: 80%;
 	}
 }
 
