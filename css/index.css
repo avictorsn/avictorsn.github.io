@@ -155,6 +155,10 @@ body{
 ** id's
 */
 
+#video_div{
+	color:#dcdde1;
+	background-color: #192a56;
+}
 
 #welcomeParagraph {
 	font-family: 'Lato', serif;
