@@ -166,6 +166,25 @@ body{
 	text-align: center;
 }
 
+#github_link{
+	color: #af0c0c;
+	cursor: pointer;
+	background-color: #f7f7f7;
+	border-radius: 15px;
+	padding: 4px;
+	font-size: 26px;
+}
+
+#github_link:hover{
+	color: #f7f7f7;
+	background-color: #af0c0c;
+	transition: 0.4s;
+}
+
+#topics{
+	color: #850909;
+	font-size: 22px;
+}
 
 
 @media(max-width: 800px){
