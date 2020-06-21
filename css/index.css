@@ -128,6 +128,18 @@ body{
 	
 }
 
+.custom_link{
+	color: #303031 !important;
+	cursor: pointer;
+	padding: 4px;
+	font-size: 20px !important;
+}
+
+.custom_link:hover{
+	color: #626263 !important;
+	transition: 0.4s;
+}
+
 .iframe_div{
 
 	position: relative;
@@ -164,21 +176,6 @@ body{
 	color: #303031;
 	margin: auto;
 	text-align: center;
-}
-
-#github_link{
-	color: #af0c0c;
-	cursor: pointer;
-	background-color: #f7f7f7;
-	border-radius: 15px;
-	padding: 4px;
-	font-size: 26px;
-}
-
-#github_link:hover{
-	color: #f7f7f7;
-	background-color: #af0c0c;
-	transition: 0.4s;
 }
 
 #topics{
