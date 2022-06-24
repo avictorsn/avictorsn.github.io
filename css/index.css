@@ -36,6 +36,7 @@ body{
 
 	text-align: center;
 	margin:auto;
+	cursor: pointer;
 	
 
 }
@@ -46,11 +47,11 @@ body{
 	font-family: 'K2D', sans-serif;
 	font-size: 30px;
 	text-decoration: none;
+	cursor: pointer;
 }
 .visible_tab a:hover {
 	
 	color: rgb(36, 82, 72);
-	cursor: default;
 }
 
 .visible_tab a:active{
@@ -156,13 +157,34 @@ body{
 	height: 100%;
 }
 
+.language-box {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 1rem;
+	margin-top: 1rem;
+}
 
+.topics{
+	color: #850909;
+	font-size: 22px;
+}
 
 /*
 *
 **
 ** id's
 */
+
+#current-language{
+	border-radius: 50px;
+	height: 37px;
+	width: 45px;
+	border: 2px solid #555;
+}
+#current-language:hover{
+	filter: brightness(1.2);
+	cursor: pointer;
+}
 
 #video_div{
 	color:#dcdde1;
@@ -176,11 +198,6 @@ body{
 	color: #303031;
 	margin: auto;
 	text-align: center;
-}
-
-#topics{
-	color: #850909;
-	font-size: 22px;
 }
 
 
