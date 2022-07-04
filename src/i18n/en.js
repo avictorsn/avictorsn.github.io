@@ -13,6 +13,9 @@ const messages = {
     "contact-title":            "Contact",
     "contact-text1":            "Main E-mail: antoniovictor@ymail.com\nSecondary E-mail: antoniovictors@gmail.com\n",
     "contact-linkedin-profile": "LinkedIn Profile\n\n",
+    "projects-wal-title":       "WAL Empathy Lab",
+    "projects-wal-description": "Game for browsers on notebook or desktop, which has the purpose of making the user aware of the importance of accessibility on the web.",
+    "projects-wal-link":        "Link for the game",
 }
 
 export default messages;

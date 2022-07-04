@@ -13,6 +13,9 @@ const messages = {
     "contact-title":            "Contatos",
     "contact-text1":            "E-mail principal: antoniovictor@ymail.com\nE-mail secundário: antoniovictors@gmail.com\n",
     "contact-linkedin-profile": "Perfil no LinkedIn\n\n",
+    "projects-wal-title":       "WAL Empathy Lab",
+    "projects-wal-description": "Game para navegadores em notebook ou desktop, que possui a finalidade de conscientizar o usuário sobre a importância da acessibilidade na web.",
+    "projects-wal-link":        "Link para jogo",
 }
 
 export default messages;
